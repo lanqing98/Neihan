@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+    defaultConfig {
+        applicationId "seven.com.neihan"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        renderscriptTargetApi 23
+        renderscriptSupportModeEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    kapt {
+        generateStubs = true
+    }
+
+    dependencies {
+        implementation fileTree(dir: 'libs', include: ['*.jar'])
+        implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+        implementation 'com.android.support:appcompat-v7:26.0.1'
+        implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+        testImplementation 'junit:junit:4.12'
+        androidTestImplementation 'com.android.support.test:runner:1.0.0'
+        androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.0'
+        // recycleView
+        implementation 'com.android.support:recyclerview-v7:26.0.1'
+        // 底部导航栏
+        implementation 'me.majiajie:pager-bottom-tab-strip:2.2.1'
+        // 网络加载
+        implementation 'com.squareup.okhttp3:okhttp:3.8.1'
+        // json 解析
+        implementation "com.google.code.gson:gson:2.8.0"
+        // 刷新
+        implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.3'
+        // 刷新 自定义
+        implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.3'
+        // 网络加载图片
+        implementation 'com.github.bumptech.glide:glide:4.0.0'
+        kapt 'com.github.bumptech.glide:compiler:4.0.0'
+        implementation 'com.github.bumptech.glide:okhttp3-integration:4.0.0'
+        // 弹性布局
+        implementation 'com.google.android:flexbox:0.3.0'
+        //glide 的图片缩放和剪切
+//        implementation 'jp.wasabeef:glide-transformations:2.0.2'
+//        implementation 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
+        // 显示长图并且能够放大
+        implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.6.0'
+        // 滚动列表视频播放
+        implementation 'com.github.danylovolokh:video-player-manager:0.2.0'
+        implementation 'com.github.danylovolokh:list-visibility-utils:0.2.0'
+
+    }
+}

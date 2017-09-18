@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">内函</string>
+    <string name="jokeHome">段子</string>
+    <string name="jokeEssenceHome">精华</string>
+    <string name="jokePicHome">图片</string>
+    <string name="jokeVideoHome">视频</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:flexWrap="wrap"
+    app:flexDirection="row"
+    app:justifyContent="flex_start"
+    app:alignContent="space_around">
+    <seven.com.neihan.CustomViews.NineGridLayout.NineGridViewContent
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content1">
+    </seven.com.neihan.CustomViews.NineGridLayout.NineGridViewContent>
+
+    <seven.com.neihan.CustomViews.NineGridLayout.NineGridViewContent
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content2">
+    </seven.com.neihan.CustomViews.NineGridLayout.NineGridViewContent>
+
+    <seven.com.neihan.CustomViews.NineGridLayout.NineGridViewContent
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content3">
+    </seven.com.neihan.CustomViews.NineGridLayout.NineGridViewContent>
+
+    <seven.com.neihan.CustomViews.NineGridLayout.NineGridViewContent
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content4">
+    </seven.com.neihan.CustomViews.NineGridLayout.NineGridViewContent>
+
+    <seven.com.neihan.CustomViews.NineGridLayout.NineGridViewContent
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content5">
+    </seven.com.neihan.CustomViews.NineGridLayout.NineGridViewContent>
+
+    <seven.com.neihan.CustomViews.NineGridLayout.NineGridViewContent
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content6">
+    </seven.com.neihan.CustomViews.NineGridLayout.NineGridViewContent>
+
+    <seven.com.neihan.CustomViews.NineGridLayout.NineGridViewContent
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content7">
+    </seven.com.neihan.CustomViews.NineGridLayout.NineGridViewContent>
+
+    <seven.com.neihan.CustomViews.NineGridLayout.NineGridViewContent
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content8">
+    </seven.com.neihan.CustomViews.NineGridLayout.NineGridViewContent>
+
+    <seven.com.neihan.CustomViews.NineGridLayout.NineGridViewContent
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content9">
+    </seven.com.neihan.CustomViews.NineGridLayout.NineGridViewContent>
+</com.google.android.flexbox.FlexboxLayout>
